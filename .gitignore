@@ -1,0 +1,29 @@
+# Ignore build and temp files
+*.obj
+*.lst
+*.hex
+*.map
+*.bak
+*.tmp
+*.log
+*.dep
+*.lnk
+
+# Keil uVision
+*.uvgui.*
+*.uvopt.*
+*.uvproj.*
+*.scvd
+*.plg
+
+# STM32CubeIDE
+*.launch
+*.ioc
+*.settings/
+*.mxproject
+
+# System files
+Thumbs.db
+.DS_Store
+__pycache__/
+*.swp
