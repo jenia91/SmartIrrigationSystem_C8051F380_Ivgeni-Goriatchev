@@ -28,7 +28,7 @@ sdcc -mmcs51 -c *.c
 * **Main code:** [`src/MainProject_Menu.c`](./src/MainProject_Menu.c)
 * **MCU init / clocks / PCA / I²C / SPI:** [`src/init380.c`](./src/init380.c)
 * **Headers:** [`src/include/`](./src/include/)
-* **Vendor (local-only, git-ignored):** `vendor/` → `initsysSPI.h`, `LcdSpi20.LIB`
+* **Vendor (local-only, git-ignored)
 
 ## Repo map
 
@@ -42,6 +42,4 @@ vendor/                 # proprietary deps (not committed)
 LICENSE, README.md, .gitignore
 ```
 
-```
-::contentReference[oaicite:0]{index=0}
-```
+
