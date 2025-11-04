@@ -1,3 +1,5 @@
+
+````md
 ![CI](https://github.com/jenia91/SmartIrrigationSystem_C8051F380/actions/workflows/ci.yml/badge.svg?branch=main)
 
 # Smart Irrigation – C8051F380
@@ -21,3 +23,27 @@ Embedded irrigation controller on **C8051F380 (48 MHz)**.
 ## Build (compile-only)
 ```bash
 sdcc -mmcs51 -c *.c
+````
+
+## Quick links
+
+* **Main code:** [`src/MainProject_Menu.c`](./src/MainProject_Menu.c)
+* **MCU init / clocks / PCA / I²C / SPI:** [`src/init380.c`](./src/init380.c)
+* **Headers:** [`src/include/`](./src/include/)
+* **Vendor (local-only, git-ignored):** `vendor/` → `initsysSPI.h`, `LcdSpi20.LIB`
+
+## Repo map
+
+```
+src/
+ ├─ include/            # header files
+ ├─ MainProject_Menu.c  # UI state machine + irrigation logic
+ └─ init380.c           # system clock, PCA-PWM, I²C/SPI init
+vendor/                 # proprietary deps (not committed)
+.github/workflows/ci.yml
+LICENSE, README.md, .gitignore
+```
+
+```
+::contentReference[oaicite:0]{index=0}
+```
