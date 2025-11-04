@@ -1,5 +1,6 @@
 ![CI](https://github.com/jenia91/SmartIrrigationSystem_C8051F380/actions/workflows/ci.yml/badge.svg?branch=main)
 # Smart Irrigation – C8051F380
+<img width="1216" height="1341" alt="image" src="https://github.com/user-attachments/assets/1de428ae-e942-4660-bb8e-24e898306fb0" />
 
 Embedded irrigation controller on **C8051F380 (48 MHz)**.
 
