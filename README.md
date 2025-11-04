@@ -1,3 +1,4 @@
+![CI](https://github.com/jenia91/SmartIrrigationSystem_C8051F380/actions/workflows/ci.yml/badge.svg?branch=main)
 # Smart Irrigation – C8051F380
 
 Embedded irrigation controller on **C8051F380 (48 MHz)**.
