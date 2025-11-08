@@ -1,5 +1,4 @@
 
-
 #ifndef _initavi_h_
 #define _initavi_h_
 
@@ -161,3 +160,4 @@ int ButtonTouch(int x,int y);
 
 
 #endif
+
