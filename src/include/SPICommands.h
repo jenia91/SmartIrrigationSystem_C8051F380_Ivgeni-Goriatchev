@@ -1,6 +1,4 @@
 
-/*  last update 21/02/2020 */
-/*  Avi Hayun */
 
 #ifndef _initavi_h_
 #define _initavi_h_
@@ -8,8 +6,6 @@
 #include "compiler_defs.h"
 #include "C8051F380_defs.h"
 #include <stdio.h>
-
-void AVI(void);
 void Init_Device(void);
 
 /********************************* oscillator************************/
@@ -162,5 +158,6 @@ void LCD_clearButton(void);
 
 void LCD_drawButton(U8 NumButton,int x, int y, int w,int h, int r, U16 Color,U16 textcolor,char *label,U8 textsize);
 int ButtonTouch(int x,int y);
+
 
 #endif
