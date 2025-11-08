@@ -51,7 +51,7 @@ The system measures environmental conditions in real-time and controls water flo
 ## Quick Links
 - **Main project logic / UI** → [`src/MainProject_Menu.c`](./src/MainProject_Menu.c)
 - **MCU clock / PCA-PWM / I²C / SPI init** → [`src/init380.c`](./src/init380.c)
-- **Header files** → [`src/include/`](./src/include/)
+- **Header files+Drivers** → [`src/include/`](./src/include/)
 
 ---
 
